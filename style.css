@@ -33,7 +33,7 @@ select {
   font-size: 16px;
 }
 
-#submit-button {
+.submit-button {
   display: flex;
   justify-content: center;
 }
