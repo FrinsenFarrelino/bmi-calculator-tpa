@@ -45,7 +45,7 @@ function submit() {
 
   if (validate == false) {
     alert(
-      "Please double check your input (just input number, and fill all the fields)!"
+      "Please double check your input (input number only, and fill all the fields)!"
     );
   } else {
     let result = calculate(data.kg, data.cm);
