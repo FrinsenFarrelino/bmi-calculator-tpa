@@ -48,3 +48,7 @@ button {
   font-family: "Poppins", sans-serif;
   margin-bottom: 40px;
 }
+
+#result {
+  text-align: center;
+}
