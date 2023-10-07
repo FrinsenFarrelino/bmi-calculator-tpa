@@ -44,7 +44,9 @@ function submit() {
   const validate = validateFormData(data);
 
   if (validate == false) {
-    alert("Please fill all the fields!");
+    alert(
+      "Please double check your input (just input number, and fill all the fields)!"
+    );
   } else {
     let result = calculate(data.kg, data.cm);
     document.querySelector("#result").innerHTML = `
